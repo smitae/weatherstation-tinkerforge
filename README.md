@@ -20,12 +20,12 @@ Output dir is hardcoded - /appl/weerstation/data/.. (Line 153-Outside / 169-Insi
 Also IP-adres to connect to the sensor array is hardcoded (Line 183-Outside / 167-Inside in the source code).
 
 build;
-javac -cp Tinkerforge.jar:. Weerstation_Inside.java.
-javac -cp Tinkerforge.jar:. Weerstation_Outside.java.
+"javac -cp Tinkerforge.jar:. Weerstation_Inside.java."
+"javac -cp Tinkerforge.jar:. Weerstation_Outside.java."
 
 After that copy the Tinkerforge.jar to a folder and run it from there with;
-java -cp Tinkerforge.jar:. Weerstation_Inside.
-java -cp Tinkerforge.jar:. Weerstation_Outside.
+"java -cp Tinkerforge.jar:. Weerstation_Inside."
+"java -cp Tinkerforge.jar:. Weerstation_Outside."
 
 
 Things To-Do (in random order and sure to change);
