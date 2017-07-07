@@ -12,7 +12,7 @@ Setup 2; WeatherStation_Outside
 TinkerForge Sensorstation with UV-Light, Temperature, Humidity and Sound sensor.
 
 Output dir is hardcoded - /appl/weerstation/data/.. (Line 153-Outside / 169-Inside in the source code)
-Also IP-adres to connect to the sensor array is hardcoded - 
+Also IP-adres to connect to the sensor array is hardcoded (Line 183-Outside / 123-Inside in the source code)
 
 build;
 javac -cp Tinkerforge.jar:. Weerstation_Inside.java
