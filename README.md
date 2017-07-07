@@ -1,5 +1,5 @@
 # weatherstation-tinkerforge
-TinkerForge based weatherstation with multiple options.
+TinkerForge based weatherstation/sensorstation with multiple options.
 
 Will be used as a IoT learning project which should run on OpenShift Origin.
 With lots of pods for AMQ, Database(not sure if I want a DB), Multiple Pods running multiple sensor processes, website for presenting the data. Maybe some Apache Camel/Red Hat Fuse routes to do some intersting stuff with the data.
