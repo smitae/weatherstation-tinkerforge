@@ -11,7 +11,8 @@ TinkerForge Weatherstation with Humidity, Barometer(Air-pressure + Temperature) 
 Setup 2; WeatherStation_Outside
 TinkerForge Sensorstation with UV-Light, Temperature, Humidity and Sound sensor.
 
-Output dir is /appl/weerstation/data/.. (Line 169 in the source code)
+Output dir is hardcoded - /appl/weerstation/data/.. (Line 153-Outside / 169-Inside in the source code)
+Also IP-adres to connect to the sensor array is hardcoded - 
 
 build;
 javac -cp Tinkerforge.jar:. Weerstation_Inside.java
