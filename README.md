@@ -2,12 +2,12 @@
 TinkerForge based weatherstation/sensorstation with multiple options.
 
 Will be used as a IoT learning project which should run on OpenShift Origin.
-With lots of pods for AMQ, Database(not sure if I want a DB), Multiple Pods running multiple sensor processes, website for presenting the data. Maybe some Apache Camel/Red Hat Fuse routes to do some intersting stuff with the data.
-Also trying to use data from LoRa nodes (when I finally have my Gateway up-and-running).
+With lots of pods for AMQ, Database(not sure if I want a DB), Multiple Pods running multiple sensor processes, website for presenting the data. Maybe some Apache Camel/Red Hat Fuse routes to do some interesting stuff with the data.
+Also trying to use data from LoRa nodes (when I finally have my Gateway up-and-running and some nodes ready).
 
 Here you can find the details of the Hardware used www.tinkerforge.com also the pre-compiled Tinkerforge.jar and other code can be found here. Very nice stuff for experimenting with IoT, focus on development not on electronics.
 
-First try with GitHub and Java. Very simple program to run my 2 TinkerForge based environmental sensor setup.
+This is my first try with GitHub and Java. Very simple program to run my 2 TinkerForge based environmental sensor setup.
 
 Setup 1; WeatherStation_Inside.
 TinkerForge Weatherstation with Humidity, Barometer(Air-pressure + Temperature) Ambient light and LCD screen.
