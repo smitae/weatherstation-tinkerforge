@@ -33,9 +33,7 @@ Things To-Do (in random order and sure to change);
 - Use parameters for IP-adres, output folder.
 - Make it flexible enough to select the sensors attached during the build.
 - Create Dockerfile. Run the Java process in a Docker container.
-- Create OpenShift Origin project.
-  - Pods based on Docker-files/containers?
-  - Set it up in Openshift, using GIT, build it from source or something like that.
+
 - Use Fuse to do some stuff with the MQTT messages.
-- Do something with persitent storage in OpenShift, maybe in a DB? 
+
 
